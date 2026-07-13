@@ -1,0 +1,25 @@
+# ── Model weights (too large for GitHub) ─────────────────────────────────────
+gemma-4-E2B-it/
+*.gguf
+*.safetensors
+*.bin
+
+# ── llama.cpp build artefacts ─────────────────────────────────────────────────
+llama.cpp/
+llama-cpp-bin/
+llama-quantize.exe
+llama-quantize
+vc_redist.x64.exe
+C:/tmp/
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# ── Logs / temp ───────────────────────────────────────────────────────────────
+server.log
+*.log
